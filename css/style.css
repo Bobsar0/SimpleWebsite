@@ -133,7 +133,41 @@ ul#services li{
     border: #cccccc groove 5px;
     margin-bottom: 5px;
     background: #32a0c2;
-  }
-  ul#services h3{
+}
+ul#services h3{
     border-bottom: #353637 solid 1px;
-  }
+}
+
+/********Responsiveness********/
+/* Adding media queries to ensure the website is responsive so as to adapt to changing screen sizes */
+@media(max-width: 768px) { /* Valid for screen sizes with max width of 768 pixel*/
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"],
+    .contact input,
+    .contact textarea,
+    .contact label{
+        width: 100%;
+        margin-bottom: 5px;
+      }
+}
