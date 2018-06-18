@@ -104,3 +104,19 @@ footer{
     background-color: #32a0c2;
     text-align: center;
 }
+
+/********ABOUT*****************/
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    padding: 5px;
+}
+aside#sidebar .contact input, aside#sidebar .contact textarea{
+    width: 90%;
+    padding: 5px;
+}
+article#main-col{
+    float: left;
+    width: 65%;
+}
