@@ -116,7 +116,24 @@ aside#sidebar .contact input, aside#sidebar .contact textarea{
     width: 90%;
     padding: 5px;
 }
+aside#sidebar .imgs{
+    float: center;
+    width: 180px;
+    height: 180px
+}
 article#main-col{
     float: left;
     width: 65%;
 }
+
+/********* Services ************/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc groove 5px;
+    margin-bottom: 5px;
+    background: #32a0c2;
+  }
+  ul#services h3{
+    border-bottom: #353637 solid 1px;
+  }
