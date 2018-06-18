@@ -138,7 +138,26 @@ ul#services h3{
     border-bottom: #353637 solid 1px;
 }
 
-/********Responsiveness********/
+/***** Gallery*******/
+#gallerybg{
+    background-image: url('../img/header3.jpg');
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #353637;
+}
+#gallerybg h2{
+    font-size: 25px;
+}
+#gallerybg h1{
+    margin-top: 20px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+
+    /********RESPONSIVENESS********/
 /* Adding media queries to ensure the website is responsive so as to adapt to changing screen sizes */
 @media(max-width: 768px) { /* Valid for screen sizes with max width of 768 pixel*/
     header #branding,
@@ -148,7 +167,8 @@ ul#services h3{
     #newsletter form,
     #boxes .box,
     article#main-col,
-    aside#sidebar {
+    aside#sidebarm,
+    #gallerybg {
         float: none;
         text-align: center;
         width: 100%;
