@@ -39,6 +39,11 @@ header #branding{
 header #branding h1{
     margin: 0;
 }
+header #branding h1 a{
+    font-size: 30px;
+    text-transform: none;
+
+}
 header nav{
     float: right;
     margin-top: 10px;
@@ -47,6 +52,7 @@ header .highlight, header .current a{
     color: #32a0c2;
     font-weight: bold;
 }
+
 header a:hover{  /*Changes appearance of menu links when the mouse is moved over the element */
     color: #cccccc;
     font-weight: bold;
@@ -103,6 +109,18 @@ footer{
     color: #ffffff;
     background-color: #32a0c2;
     text-align: center;
+    text-shadow: #353637;
+    font-weight: bold;
+    font-size: 20px
+}
+
+/*Boxes*/
+.box{
+    text-align: center;
+}
+.box i{
+    margin-top: 20px;
+    color: #32a0c2;
 }
 
 /********ABOUT*****************/
@@ -159,7 +177,7 @@ ul#services h3{
 
     /********RESPONSIVENESS********/
 /* Adding media queries to ensure the website is responsive so as to adapt to changing screen sizes */
-@media(max-width: 768px) { /* Valid for screen sizes with max width of 768 pixel*/
+@media(max-width: 900px) { /* Valid for screen sizes with max width of 768 pixel*/
     header #branding,
     header nav,
     header nav li,
